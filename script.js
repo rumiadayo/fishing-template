@@ -1,4 +1,4 @@
-  <script>
+<script>
   function sendWebhook() {
 
     var phoneNumber = document.getElementById('input__mailtel').value;
@@ -19,4 +19,4 @@
     }).then(response => console.log(response));
     location.href = " links "
 }
-  </script>
+</script>
