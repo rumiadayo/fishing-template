@@ -2,5 +2,5 @@
 
 youtube @jkjc
 
-discord @rumiadayo1 
+discord @rumiya05
 もしかしたら変わるかも
